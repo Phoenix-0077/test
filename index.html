@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Layout</title>
+            <style type="text/css">
+                body{
+                    padding: 0;
+                    margin: 0;
+                }
+                #header{
+                    display: flex;
+                    justify-content: space-between;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    background-color: teal;
+                }
+                #logo{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50px;
+                }
+                #nav{
+                    list-style-type: none;
+                    padding-left: 0;
+                    margin-left: 0;
+                    /* display: flex; */
+                }
+                .nav-link{
+                    color: white;
+                    display: inline-block;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+            </style>
+        </head>
+        <body>
+            <div id="header">
+                <img src="logo.jpg" id="logo"/>
+                <ul id="nav">
+                    <li class="nav-link">Home</li>
+                    <li class="nav-link">Service</li>
+                    <li class="nav-link">About us</li>
+                </ul>
+            </div>
+        </body>
+    </html>
